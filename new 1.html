@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> HTML Event Binding </title>
+</head>
+<body>
+<h1 align="center">HTML Event Binding</h1>
+<form action ="#" method="get" onreset="alert('form reset ');" onsubmit="alert('for submit'); return false;">
+<ul>
+<li>onblue:<input type="text" value="click into field and then leavel" size="40" onblur="alert('lost focuse');"/><br/><br/>
+</li>
+<li>onclick<input type="button" value="click me" onclick="alert('button click');"/> <br/><br/>
+</li>
+<li>oncharge:<input type="text" value="change this text then leave" size="40" oncharge="alert('changed');"/><br/><br/>
+</li>
+<li>ondblclick:<input type="button" vale="Double-click me" ondblclick="alert('button double-clicked');"/><br/><br/>
+</li>
+<li>onfocuse:<input type="text" value="click into field" onfocuse="alert('Gained focuse');return false";"><br/><br/>
+<li>onkeydown:<input type="text" value="press key and release slowly here" size="40" onkeydown="alert('key down');/"><br/><br/>
+</li>
+<li>onkeypress:<input type="text" value="type here" size="40" onkeypress="alert('key pressed');"/ ><br/><br/>
+</li>
+<li>onkeyup:<input type="text" value="press a key and relese it" size="40" onkeyup="alert('key up');"/ ><br/><br/>
+</li>
+<li>onload:As alert was shown when the document loaded<br/><br/>
+</li>
+<li>onmousedown:<input type="button" value="click and hold" onmousedown="alert('mouse down');"/ ><br/><br/>
+</li>
+<li>onmousemove:Move mouse over this<a href ="#" onmousemove="alert(mouse moved):">link</a><br/><br/>
+</li>
+<li>onmouseout:Position mouse<a href="#" onmouseout ="alert('mouse out');">here</a>and then away<br/><br/>
+</li>
+<li>onmouseover:Position mouse over this<a href="#" onmouseover="alert('mouse over');">link</a><br/><br/>
+</li>
+<li>onmouseup:<input type="button" value="click and release" onmouseup="alert('mouse up');"/><br/><br/>
+</li>
+<li>onreset:<input type="reset" value="reset demo "/><br/><br/>
+</li>
+<li>onselect:<input type="text" value="Select this text " size="40" onselect="alert('selected');"/><br/><br/>
+</li>
+<li>onsubmit:<input type="submit" value="test submit" /><br/><br/>
+</li>
+<li>onunload:Try to leave document by following this
+<a href ="https://www.google.com">link</a><br/><br/></li>
+</ul>
+</form>
+</body>
+</html>
